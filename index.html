@@ -7,7 +7,24 @@
     <!-- link the tailwind css with cdn script tag -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="bg-gray-100">
+    <!-- main home screen start -->
+    <div class="flex min-h-screen">
+      <!-- sidebar start -->
+      <div class="md:flex flex-col w-60 bg-gray-700 text-white p-6">
+        <h2 class="text-xl font-bold mb-6">[logo] Capstone Flow</h2>
+        <!-- sidebar menu list start -->
+        <ol class="space-y-3">
+          <li class="block p-2 rounded bg-gray-800">Dashboard</li>
+          <li class="block p-2 hover:bg-gray-700 rounded">Settings</li>
+        </ol>
+        <!-- sidebar menu list end -->
+      </div>
+      <!-- sidebar end -->
+    </div>
+
+
     
+    <!-- main home screen end -->
   </body>
 </html>
